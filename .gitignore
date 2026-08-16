@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local application data
+data/memory/*
+!data/memory/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# IDE / editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build / generated files
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# Local model / AI artifacts
+*.gguf
+*.safetensors
+*.bin
+
+# Satisfactory / Unreal generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Local caches
+.cache/
